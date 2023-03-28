@@ -1,0 +1,107 @@
+/*! jannavratil.com personal website style
+  
+  (c) 2021 Jan Navratil
+*/
+
+@charset "UTF-8";
+@import url('../fa/css/all.min.css');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
+
+html,body { height: 100%; margin: 0px; padding: 0px; }
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  color: #fff;
+  background-color: #888;
+  background-image: url('https://jannavratil.com/assets/img/page-backdrop.jpg');
+  background-repeat: no-repeat;
+  background-position: center;  
+  background-size:  auto;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+h1 {
+  font-size: 12vw;
+  margin: 1vw;
+}
+
+h2 {
+  font-size: 8vw;
+  margin: 1vw;
+}
+
+.headshot {
+  width: 66%;
+  height: auto;
+  position: center;
+  border-radius: 50%;
+  border-color: #ddd;
+  border-width: 0.4vw;
+  border-style: solid;
+}
+
+.social-links {
+  font-size: 12vw;
+  margin-top: 12vw;
+}
+
+.social-link {
+  margin: 2vw;
+  color: #eee;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;  
+}
+
+.social-link:hover {
+  color: #EE6A87;
+}
+
+.social-link:before,
+.social-link:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+.copyright {
+  font-size: 4vw;
+  margin-top: 4vw;
+}
+
+
+@media only screen and (min-width: 43em) {
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+.headshot {
+  width: 15em;
+  border-width: 0.2em;
+}
+
+.social-links {
+  font-size: 3em;
+}
+
+.social-link {
+  margin: 0.2em;
+}
+
+.copyright {
+  font-size: 1em;
+  margin-top: 1em;
+}
+  
+}
