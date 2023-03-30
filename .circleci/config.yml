@@ -25,7 +25,7 @@ jobs:
           command: wget https://github.com/yui/yuicompressor/releases/download/v2.4.8/yuicompressor-2.4.8.jar
       - run:
           name: Compress CSS
-          command: java -jar yuicompressor-2.4.8.jar webroot/css/*.css -o '.css$:.css'
+          command: java -jar yuicompressor-2.4.8.jar webroot/assets/css/*.css -o '.css$:.css'
       - run:
           name: TEST HTML syntax
           command: /home/circleci/.local/bin/html5validator --root webroot/
