@@ -2,7 +2,7 @@
 
 Jan Navratil's Personal Website
 
-[![CircleCI](https://circleci.com/gh/navratil/jannavratil.com.svg?style=shield&circle-token=2f0f0344c9f7864dd41ee0554a8c1465d7807bfe)](https://circleci.com/gh/navratil/unively.com)
+[![CircleCI](https://circleci.com/gh/navratil/jannavratil.com.svg?style=shield&circle-token=2f0f0344c9f7864dd41ee0554a8c1465d7807bfe)](https://circleci.com/gh/navratil/jannavratil.com)
 
 
 ## Technical
