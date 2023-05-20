@@ -3,30 +3,31 @@ version: 0.2
 
 phases:
 
-  install:
-    runtime-versions:
-      java: corretto8
-      python: 3.x
-    commands:
-      - echo Entered the install phase...
+#  install:
+#    runtime-versions:
+#      java: corretto8
+#      python: 3.x
+#    commands:
+#      - echo Entered the install phase...
+
       
   pre_build: 
     commands:  
       - echo Entered the pre build phase...
-#      - echo Install AWS tools
-#      - sudo pip install awscli
-      - echo Install HTML5Validator
-      - pip install --user html5validator
+#      - echo Install HTML5Validator
+#      - pip install --user html5validator
       - echo Install CSS compressor
       - wget https://github.com/yui/yuicompressor/releases/download/v2.4.8/yuicompressor-2.4.8.jar   
   build:
     commands:
       - echo Entered the build phase ...
+      - pwd
+      - ls
       - echo Compress CSS
       - java -jar yuicompressor-2.4.8.jar webroot/css/*.css -o '.css$:.css'
-      - echo Test HTML syntax
-      - /home/root/.local/bin/html5validator --root webroot/
+#      - echo Test HTML syntax
+#      - /home/root/.local/bin/html5validator --root webroot/
  
- artifacts:
+artifacts:
    files:
      webroot/*
