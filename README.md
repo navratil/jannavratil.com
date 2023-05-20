@@ -2,7 +2,7 @@
 
 Jan Navratil's Personal Website
 
-[![CircleCI](https://circleci.com/gh/navratil/jannavratil.com.svg?style=shield&circle-token=2f0f0344c9f7864dd41ee0554a8c1465d7807bfe)](https://circleci.com/gh/navratil/jannavratil.com)
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/navratil/jannavratil.com/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/navratil/jannavratil.com/tree/main)
 
 
 ## Technical
