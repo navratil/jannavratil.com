@@ -29,5 +29,7 @@ phases:
 #      - /home/root/.local/bin/html5validator --root webroot/
  
 artifacts:
-  files: **/*
+  files: 
+    - '**/*'
   base-directory: webroot
+ 
