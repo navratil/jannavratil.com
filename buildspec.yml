@@ -1,4 +1,8 @@
 # AWS CodeBuild Spefication file (YAML)
+
+# ? specify JAVA/Python dependencies 
+# ? make pip work
+
 version: 0.2
 
 phases:

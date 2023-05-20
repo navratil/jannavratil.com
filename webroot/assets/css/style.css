@@ -1,6 +1,6 @@
 /*! jannavratil.com personal website style
   
-  (c) 2021 Jan Navratil
+  (c) 2021, 2023 Jan Navratil
 */
 
 @charset "UTF-8";
@@ -17,7 +17,7 @@ body {
   background-image: url('https://jannavratil.com/assets/img/page-backdrop.jpg');
   background-repeat: no-repeat;
   background-position: center;  
-  background-size:  auto;
+  background-size:  cover;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
 }
