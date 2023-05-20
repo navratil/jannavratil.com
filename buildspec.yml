@@ -24,7 +24,7 @@ phases:
       - pwd
       - ls
       - echo Compress CSS
-      - java -jar yuicompressor-2.4.8.jar webroot/css/*.css -o '.css$:.css'
+      - java -jar yuicompressor-2.4.8.jar webroot/assets/css/*.css -o '.css$:.css'
 #      - echo Test HTML syntax
 #      - /home/root/.local/bin/html5validator --root webroot/
  
